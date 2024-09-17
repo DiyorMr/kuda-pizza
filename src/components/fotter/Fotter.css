@@ -1,0 +1,60 @@
+.fotter {
+    background-color: #fff;
+    height: 200px;
+
+}
+
+.fotter-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotter-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fotter-info a:hover {
+    color: rgb(255, 112, 16);
+
+}
+
+.fotter-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.fotter-title {
+    color: rgb(25, 25, 25);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.fotter-text {
+    color: rgb(25, 25, 25);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.fotter-info ul li:hover {
+    color: rgb(255, 112, 16);
+}
+
+.fotter-contacts {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.fotter ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

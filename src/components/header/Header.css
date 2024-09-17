@@ -1,0 +1,129 @@
+.header {
+    background-color: #fff;
+    height: 55px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 8px;
+}
+
+.header-adress {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 10px;
+}
+
+
+
+.header-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.header-login {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header-adress a{
+    text-decoration: none;
+    color: inherit;
+}
+.header-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+}
+
+.header-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+}
+
+.select {
+    outline: none;
+    border: none;
+}
+
+.user {
+    cursor: pointer;
+    padding-bottom: 22px;
+}
+
+.toggle {
+    font-size: 14px;
+}
+
+.modal-titles {
+    color: rgb(25, 25, 25);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.modal-text {
+    color: rgb(25, 25, 25);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 380px;
+    height: 44px;
+    margin: 10px 0 10px 192px;
+}
+
+.input {
+    display: flex;
+    width: 360px;
+    height: 48px;
+    margin: 10px 0 0 210px;
+    padding: 0 0 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: #f3f1f1;
+}
+
+.modal-btn {
+    width: 360px;
+    height: 48px;
+    border-radius: 6px;
+    background: rgb(255, 112, 16);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin: 16px 0 12px 210px;
+}
+
+.modal-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.modal2-btn {
+    color: #ff7010;
+    cursor: pointer;
+}

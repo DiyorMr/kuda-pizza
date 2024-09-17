@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 20px;
+    margin: 20px auto;
+    width: 1280px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.map-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.map-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 65%;
+    height: 48px;
+    border: 1px solid rgb(207, 198, 198);
+    border-radius: 6px;
+    padding: 2px 14px;
+}
+
+.map-input {
+    outline: none;
+    border: none;
+}
+
+.map-btns {
+    width: 150px;
+    height: 48px;
+    background: #ff7010;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
