@@ -75,6 +75,7 @@
     display: flex;
     align-items: center;
 }
+
 .modal-title {
     color: rgb(25, 25, 25);
     font-size: 20px;
@@ -171,7 +172,35 @@
     justify-content: space-between;
     margin: 16px 0;
     cursor: pointer;
+}
 
+.m-photo-item {
+    width: 105px;
+    height: 105px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.m-photo-item img:first-child {
+    max-width: 40px;
+    min-height: 40px;
+}
+
+.m-photo-item img:nth-child(2) {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: none;
+}
+
+.m-photo-item.border-warning img:nth-child(2) {
+    display: inline;
 }
 
 .m-footer {

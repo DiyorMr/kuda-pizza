@@ -1,5 +1,5 @@
-import img from '../../../img/Rectangle 4.svg'
-import img2 from '../../../img/Rectangle 4.svg'
+import img from '../../../img/pizza-card.svg'
+import img2 from '../../../img/pizza-card.svg'
 
 export const pizzaData = [
     {
@@ -9,6 +9,12 @@ export const pizzaData = [
         price: 'от 399 ₽',
         size: '20',
         quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#1'
     },
     {
         img: img2,
@@ -17,6 +23,12 @@ export const pizzaData = [
         price: 'от 549 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#2'
     },
     {
         img: img2,
@@ -25,6 +37,12 @@ export const pizzaData = [
         price: 'от 249 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#3'
     },
     {
         img: img2,
@@ -33,6 +51,12 @@ export const pizzaData = [
         price: 'от 630 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#4'
     },
     {
         img: img2,
@@ -41,6 +65,12 @@ export const pizzaData = [
         price: 'от 630 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#5'
     },
     {
         img: img2,
@@ -49,6 +79,12 @@ export const pizzaData = [
         price: 'от 249 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#6'
     },
     {
         img: img2,
@@ -57,6 +93,12 @@ export const pizzaData = [
         price: 'от 399 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#7'
     },
     {
         img: img2,
@@ -65,6 +107,12 @@ export const pizzaData = [
         price: 'от 549 ₽',
         size: '20',
         quality: 'Traditional',
+        isMonzarella: false,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'pizza#8'
     },
 
 ]

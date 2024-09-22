@@ -5,49 +5,113 @@ export const desertData = [
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#1'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id:'desert#2'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#3'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#4'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#5'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#7'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id:'desert#8'
     },
     {
         img: img,
         name: 'Филадельфия крем-брюле',
         text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
-        price: '395 ₽'
+        price: '395 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'desert#9'
     },
 
 

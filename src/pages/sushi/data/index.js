@@ -5,50 +5,114 @@ export const sushiData = [
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        // isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#1'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#2'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#3'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#4'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#5'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#6'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#7'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'sushi#8'
     },
-    
+
 
 ]

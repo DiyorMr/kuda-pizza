@@ -1,51 +1,115 @@
 import img from '../../../img/Rectangle 4 (6).svg'
-export const comboData =[
+export const comboData = [
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#1'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#2'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#3'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#4'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#5'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#6'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#7'
     },
     {
         img: img,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
-        price: '475 ₽'
+        price: '475 ₽',
+        size: '20',
+        quality: 'Thin',
+        isMonzarella: true,
+        isChampignons: false,
+        isOnion: false,
+        isSweet: false,
+        count: 1,
+        id: 'combo#8'
     },
 ]

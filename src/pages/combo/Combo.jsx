@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Combo.css'
 import { comboData } from './data'
 import Card from '../../components/card/Card'
@@ -30,8 +30,8 @@ const Combo = () => {
         <div className="container">
           <div className="combo-infos">
             <h1 className='adres-title'>Доставка пиццы в Москве</h1>
-            <div className='combo-info-box'>
-              <p className='adres-text'>Захотелось чего-то вкусного и сытного? Желание простое и понятное,
+            <div className='combo-info-box h-200'>
+              <div className='adres-text'>Захотелось чего-то вкусного и сытного? Желание простое и понятное,
                 только в холодильнике все не то, и до магазина идти лень. Все пропало? Нет. Недорого заказать пиццу в Москве очень
                 просто! Вам на помощь спешит супергерой – Domino’s Pizza! Как у всякого супергероя, у Domino’s Pizza есть
                 свои суперсилы: восхитительный вкус продукции из отборных ингредиентов; широкий ассортимент, включающий
@@ -48,10 +48,10 @@ const Combo = () => {
                 так как вкусная пицца на заказ с доставкой уже мчится к
                 Вам из ближайшей пиццерии Domino’s.
                 И не забудьте оплатить заказ курьеру!
-              </p>
-              <div id='overlay'></div>
+              </div>
+              <div id='overlay' className='overlay'></div>
             </div>
-            <h4 className='adres-title2' onClick={show}>Показать полностью</h4>
+            <h4 className='adres-title2 h-200' onClick={show}>Показать полностью</h4>
           </div>
         </div>
       </div>

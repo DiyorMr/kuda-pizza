@@ -9,8 +9,8 @@ const Menu = () => {
       <div className="menu" id='menu'>
         {
           menuData.map((item, index) =>
-            <a href={item.href}  rel="noopener noreferrer">
-               <div className="menu-box" key={index}>
+            <a href={item.href}  rel="noopener noreferrer"  key={index}>
+               <div className="menu-box">
               <img src={item.img} alt="" />
               <h2 className='menu-text'>{item.name}</h2>
             </div>

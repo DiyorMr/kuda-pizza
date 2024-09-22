@@ -48,7 +48,6 @@
 }
 
 .navbar-img-btn {
-    width: 89px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -57,6 +56,7 @@
     background: #FF7010;
     border-radius: 8px;
     cursor: pointer;
+    padding: 10px;
 }
 
 .navbar-text-btn {
@@ -90,13 +90,16 @@
 
 .drawer-info {
     margin: 0 0 110px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 .big {
-    width: 200px;
-    height: 200px;
-    margin: 0 0 20px 70px;
-
+    width: 150px;
+    height: 150px;
 }
 
 .big-text {
@@ -110,7 +113,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4px;
 }
 
 .drawer-price {
@@ -120,7 +122,7 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
-    padding-top: 16px;
+    margin-bottom: 0;
 }
 
 .drawer-btn {
@@ -138,15 +140,22 @@
     border: none;
 }
 
+.bugs-box {
+    height: 73vh;
+    overflow-y: auto;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .bugs-add {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 330px;
-    height: 140px;
     border-radius: 8px;
     border: 1px solid rgb(187, 180, 180);
-    margin: 10px 0;
+    padding: 10px;
 }
 
 .images {
@@ -181,7 +190,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
-    padding: 14px 6px 0 0;
+    margin: 0;
 }
 
 .bugs-btns {
@@ -206,19 +215,18 @@
 }
 
 .count {
-    padding-top: 14px;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 .bugs-btn {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
     width: 74px;
     height: 30px;
     border-radius: 4px;
-    padding: 2px 0 0 8px;
     background: #ffeee2;
 
 }
