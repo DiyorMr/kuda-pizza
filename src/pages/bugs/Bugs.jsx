@@ -10,6 +10,7 @@ import big from '../../img/cart4.svg'
 import { bugTotalPrice, decrement, increment, patternFormat, totalPrice } from '../../helpers'
 
 const Bugs = () => {
+  const [btnActive, setBtnActive] = useState('Delivery')
   const [products, setProducts] = useState([])
 
   useEffect(() => {
@@ -144,36 +145,49 @@ const Bugs = () => {
               <h2>Доставка</h2>
             </div>
             <div className="delivery-info-right">
-              <button className='delivery-btn-active'>Доставка</button>
-              <button className='delivery-btn'>Самовывоз</button>
+              <button className={btnActive === 'Delivery' ? 'delivery-btn-active' : 'delivery-btn'} onClick={() => setBtnActive('Delivery')}>Доставка</button>
+              <button className={btnActive === 'Pickup' ? 'delivery-btn-active' : 'delivery-btn'} onClick={() => setBtnActive('Pickup')}>Самовывоз</button>
             </div>
           </div>
-          <div className="delivery-adress">
-            <p>Улица*</p>
-            <input type="text" placeholder='Пушкина' />
-          </div>
-          <div className="delivery-boxs">
-            <div className="delivery-home">
-              <p>Дом</p>
-              <input type="text" placeholder='1а' />
-            </div>
-            <div className="delivery-home">
-              <p>Подъезд</p>
-              <input type="text" placeholder='1' />
-            </div>
-            <div className="delivery-home">
-              <p>Этаж</p>
-              <input type="text" placeholder='2' />
-            </div>
-            <div className="delivery-home">
-              <p>Квартира</p>
-              <input type="text" placeholder='3' />
-            </div>
-            <div className="delivery-home">
-              <p>Домофон</p>
-              <input type="text" placeholder='0000' />
-            </div>
-          </div>
+          {
+            btnActive === 'Delivery'
+              ?
+              <>
+                <div className="delivery-adress">
+                  <p>Улица*</p>
+                  <input type="text" placeholder='Пушкина' />
+                </div>
+                <div className="delivery-boxs">
+                  <div className="delivery-home">
+                    <p>Дом</p>
+                    <input type="text" placeholder='1а' />
+                  </div>
+                  <div className="delivery-home">
+                    <p>Подъезд</p>
+                    <input type="text" placeholder='1' />
+                  </div>
+                  <div className="delivery-home">
+                    <p>Этаж</p>
+                    <input type="text" placeholder='2' />
+                  </div>
+                  <div className="delivery-home">
+                    <p>Квартира</p>
+                    <input type="text" placeholder='3' />
+                  </div>
+                  <div className="delivery-home">
+                    <p>Домофон</p>
+                    <input type="text" placeholder='0000' />
+                  </div>
+                </div>
+              </>
+              :
+              <>
+               <div className="delivery-adress">
+                  <p>Ресторан*</p>
+                  <input type="text" placeholder='Выберите ресторан' />
+                </div>
+              </>
+          }
           <div className="delivery-select">
             <p>Когда выполнить заказ?</p>
             <div className="select-radio">
