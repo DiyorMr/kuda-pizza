@@ -1,4 +1,8 @@
-import img from '../../../img/Rectangle 4 (3).svg'
+import img from '../../../img/sushi1.svg'
+import img2 from '../../../img/sushi2.svg'
+import img3 from '../../../img/sushi3.svg'
+import img4 from '../../../img/sushi4.svg'
+
 
 export const sushiData = [
     {
@@ -16,9 +20,9 @@ export const sushiData = [
         id: 'sushi#1'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img2,
+        name: 'Филадельфия крем-брюле',
+        text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -30,9 +34,9 @@ export const sushiData = [
         id: 'sushi#2'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img3,
+        name: 'Супер Филадельфия',
+        text: 'Действительно много семги, сливочный сыр, огурец, рис, н...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -44,9 +48,9 @@ export const sushiData = [
         id: 'sushi#3'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img4,
+        name: 'Тигр мама',
+        text: 'Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -58,9 +62,9 @@ export const sushiData = [
         id: 'sushi#4'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img4,
+        name: 'Тигр мама',
+        text: 'Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -72,9 +76,9 @@ export const sushiData = [
         id: 'sushi#5'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img3,
+        name: 'Супер Филадельфия',
+        text: 'Действительно много семги, сливочный сыр, огурец, рис, н...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -100,9 +104,9 @@ export const sushiData = [
         id: 'sushi#7'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img2,
+        name: 'Филадельфия крем-брюле',
+        text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',

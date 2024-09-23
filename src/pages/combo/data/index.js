@@ -1,4 +1,8 @@
-import img from '../../../img/Rectangle 4 (6).svg'
+import img from '../../../img/combo1.svg'
+import img2 from '../../../img/combo2.svg'
+import img3 from '../../../img/combo3.svg'
+import img4 from '../../../img/combo4.svg'
+
 export const comboData = [
     {
         img: img,
@@ -15,7 +19,7 @@ export const comboData = [
         id: 'combo#1'
     },
     {
-        img: img,
+        img: img2,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -29,7 +33,7 @@ export const comboData = [
         id: 'combo#2'
     },
     {
-        img: img,
+        img: img3,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -43,7 +47,7 @@ export const comboData = [
         id: 'combo#3'
     },
     {
-        img: img,
+        img: img4,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -57,7 +61,7 @@ export const comboData = [
         id: 'combo#4'
     },
     {
-        img: img,
+        img: img2,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -85,7 +89,7 @@ export const comboData = [
         id: 'combo#6'
     },
     {
-        img: img,
+        img: img4,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -99,7 +103,7 @@ export const comboData = [
         id: 'combo#7'
     },
     {
-        img: img,
+        img: img3,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',

@@ -1,4 +1,9 @@
-import img from '../../../img/Rectangle 4 (2).svg'
+import img from '../../../img/desert1.svg'
+import img2 from '../../../img/desert2.svg'
+import img3 from '../../../img/desert3.svg'
+import img4 from '../../../img/desert4.svg'
+import img5 from '../../../img/pizza1.svg'
+
 export const snackData = [
     {
         img: img,
@@ -16,9 +21,9 @@ export const snackData = [
     },
 
     {
-        img: img,
-        name: 'Филадельфия кранч',
-        text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
+        img: img2,
+        name: 'Филадельфия крем-брюле',
+        text: 'Сливочный сыр, семга татаки с тростниковым сахаром, соус у...',
         price: '475 ₽',
         size: '20',
         quality: 'Thin',
@@ -30,8 +35,8 @@ export const snackData = [
         id: 'snick#2'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img3,
+        name: 'Супер Филадельфия',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -44,8 +49,8 @@ export const snackData = [
         id: 'snick#3'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img4,
+        name: 'Тигр мама',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -58,8 +63,8 @@ export const snackData = [
         id: 'snick#4'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img4,
+        name: 'Тигр мама',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -72,8 +77,8 @@ export const snackData = [
         id: 'snick#5'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img3,
+        name: 'Супер Филадельфия',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -86,8 +91,8 @@ export const snackData = [
         id: 'snick#6'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img5,
+        name: 'Филадельфия крем-брюле',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -100,8 +105,8 @@ export const snackData = [
         id: 'snick#7'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img5,
+        name:'Филадельфия крем-брюле',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',

@@ -1,5 +1,8 @@
-import img from '../../../img/pizza-card.svg'
-import img2 from '../../../img/pizza-card.svg'
+import img from '../../../img/pizza1.svg'
+import img2 from '../../../img/pizza2.svg'
+import img3 from '../../../img/pizza3.svg'
+import img4 from '../../../img/pizza4.svg'
+
 
 export const pizzaData = [
     {
@@ -31,7 +34,7 @@ export const pizzaData = [
         id: 'pizza#2'
     },
     {
-        img: img2,
+        img: img3,
         name: 'EASY PEASY огуречный расколбас',
         text: 'Курица, Лук, Перец Халапеньо...',
         price: 'от 249 ₽',
@@ -45,7 +48,7 @@ export const pizzaData = [
         id: 'pizza#3'
     },
     {
-        img: img2,
+        img: img4,
         name: 'EASY PEASY огуречный расколбас',
         text: 'Курица, Лук, Перец Халапеньо...',
         price: 'от 630 ₽',
@@ -59,7 +62,7 @@ export const pizzaData = [
         id: 'pizza#4'
     },
     {
-        img: img2,
+        img: img4,
         name: 'EASY PEASY огуречный расколбас',
         text: 'Курица, Лук, Перец Халапеньо...',
         price: 'от 630 ₽',
@@ -73,7 +76,7 @@ export const pizzaData = [
         id: 'pizza#5'
     },
     {
-        img: img2,
+        img: img3,
         name: 'EASY PEASY огуречный расколбас',
         text: 'Курица, Лук, Перец Халапеньо...',
         price: 'от 249 ₽',
@@ -87,7 +90,7 @@ export const pizzaData = [
         id: 'pizza#6'
     },
     {
-        img: img2,
+        img: img,
         name: 'EASY PEASY огуречный расколбас',
         text: 'Курица, Лук, Перец Халапеньо...',
         price: 'от 399 ₽',

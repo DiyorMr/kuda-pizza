@@ -1,4 +1,10 @@
-import img from '../../../img/Rectangle 4 (4).svg'
+import img from '../../../img/drink1.svg'
+import img2 from '../../../img/drink2.svg'
+import img3 from '../../../img/drink3.svg'
+import img4 from '../../../img/drink4.svg'
+import img5 from '../../../img/drink5.svg'
+import img6 from '../../../img/drink6.svg'
+
 
 export const drinkData = [
     {
@@ -16,8 +22,8 @@ export const drinkData = [
         id: 'drink#1'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img2,
+        name: 'Филадельфия крем-брюле',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -30,8 +36,8 @@ export const drinkData = [
         id: 'drink#2'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img3,
+        name: 'Супер Филадельфия',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -44,8 +50,8 @@ export const drinkData = [
         id: 'drink#3'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img4,
+        name: 'Тигр мама',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -58,8 +64,8 @@ export const drinkData = [
         id: 'drink#4'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img5,
+        name: 'Супер Филадельфия',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -72,7 +78,7 @@ export const drinkData = [
         id: 'drink#5'
     },
     {
-        img: img,
+        img: img6,
         name: 'Филадельфия кранч',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
@@ -87,7 +93,7 @@ export const drinkData = [
     },
     {
         img: img,
-        name: 'Филадельфия кранч',
+        name: 'Супер Филадельфия',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',
@@ -100,8 +106,8 @@ export const drinkData = [
         id: 'drink#7'
     },
     {
-        img: img,
-        name: 'Филадельфия кранч',
+        img: img2,
+        name: 'Тигр мама',
         text: 'Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...',
         price: '475 ₽',
         size: '20',

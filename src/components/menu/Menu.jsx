@@ -15,7 +15,6 @@ const Menu = () => {
               <h2 className='menu-text'>{item.name}</h2>
             </div>
             </a>
-           
           )
         }
       </div>

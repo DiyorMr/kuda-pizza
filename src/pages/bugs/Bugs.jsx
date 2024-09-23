@@ -6,6 +6,8 @@ import photo from '../../img/chips.svg'
 import photos from '../../img/barbaqu.svg'
 import sous from '../../img/Rectangle 4 (5).svg'
 import big from '../../img/cart4.svg'
+import close2 from '../../img/trash.svg'
+
 
 import { bugTotalPrice, decrement, increment, patternFormat, totalPrice } from '../../helpers'
 
@@ -17,16 +19,25 @@ const Bugs = () => {
     var productList = localStorage.getItem('products')
     setProducts(JSON.parse(productList));
   })
+
+  const clearAll = () => {
+    localStorage.clear()
+  }
   return (
     <div className='container'>
       <div className="bug">
-        <h1>Ваш заказ</h1>
+        <div className="bug-close">
+          <h1>Ваш заказ</h1>
+          <img className='close2' src={close2} alt="" onClick={clearAll} />
+        </div>
+
+
         {products?.length ?
           products?.sort((a, b) => a.id - b.id).map((item, index) =>
             <div className="bugs-modal" key={index}>
               <div className="bugs-modal-left">
                 <div className="bug-img">
-                  <img className='bugs-images' src={img} alt="" />
+                  <img className='bugs-images' src={item.img} alt="" />
                 </div>
                 <div className="bug-title">
                   <h1>{item.name}</h1>
@@ -93,7 +104,6 @@ const Bugs = () => {
               <p className='carousel-text'>Порция 95 г</p>
               <button className='carousel-btn'>205 ₽</button>
             </div>
-
           </div>
         </div>
         <div className="korzinka">
@@ -137,7 +147,6 @@ const Bugs = () => {
               <input type="text" placeholder='mail@gmail.com' />
             </div>
           </div>
-
         </div>
         <div className="delivery">
           <div className="delivery-info">
@@ -182,9 +191,14 @@ const Bugs = () => {
               </>
               :
               <>
-               <div className="delivery-adress">
+                <div className="delivery-adress">
                   <p>Ресторан*</p>
-                  <input type="text" placeholder='Выберите ресторан' />
+                  <select name="" id="">
+                    <option value="">Выберите ресторан</option>
+                    <option value="">Москва</option>
+                    <option value="">Томск</option>
+                    <option value="">Казан</option>
+                  </select>
                 </div>
               </>
           }
